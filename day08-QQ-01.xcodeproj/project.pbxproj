@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		35532FD41BBE25EA007FFCB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35532FD31BBE25E9007FFCB1 /* main.m */; };
-		35532FD71BBE25EA007FFCB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35532FD61BBE25EA007FFCB1 /* AppDelegate.m */; };
-		35532FDA1BBE25EA007FFCB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35532FD91BBE25EA007FFCB1 /* ViewController.m */; };
 		35532FDD1BBE25EA007FFCB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35532FDB1BBE25EA007FFCB1 /* Main.storyboard */; };
 		35532FDF1BBE25EA007FFCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35532FDE1BBE25EA007FFCB1 /* Assets.xcassets */; };
 		35532FE21BBE25EA007FFCB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35532FE01BBE25EA007FFCB1 /* LaunchScreen.storyboard */; };
 		35532FED1BBE25EA007FFCB1 /* day08_QQ_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35532FEC1BBE25EA007FFCB1 /* day08_QQ_01Tests.m */; };
 		35532FF81BBE25EA007FFCB1 /* day08_QQ_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35532FF71BBE25EA007FFCB1 /* day08_QQ_01UITests.m */; };
+		355330061BBE281A007FFCB1 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 355330051BBE281A007FFCB1 /* messages.plist */; settings = {ASSET_TAGS = (); }; };
+		355330161BBE2AC7007FFCB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355330101BBE2AC7007FFCB1 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		355330171BBE2AC7007FFCB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 355330141BBE2AC7007FFCB1 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		3553301D1BBE2DB9007FFCB1 /* LZMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3553301C1BBE2DB9007FFCB1 /* LZMessageModel.m */; settings = {ASSET_TAGS = (); }; };
+		355330201BBE2F93007FFCB1 /* LZMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3553301F1BBE2F93007FFCB1 /* LZMessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		355330231BBE3A70007FFCB1 /* LZMessageFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 355330221BBE3A70007FFCB1 /* LZMessageFrameModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		353B56D21BBE3C5B0028DD5A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		35532FCF1BBE25E9007FFCB1 /* day08-QQ-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day08-QQ-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35532FD31BBE25E9007FFCB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35532FD51BBE25EA007FFCB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		35532FD61BBE25EA007FFCB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35532FD81BBE25EA007FFCB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35532FD91BBE25EA007FFCB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35532FDC1BBE25EA007FFCB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35532FDE1BBE25EA007FFCB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35532FE11BBE25EA007FFCB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,17 @@
 		35532FF31BBE25EA007FFCB1 /* day08-QQ-01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day08-QQ-01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35532FF71BBE25EA007FFCB1 /* day08_QQ_01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = day08_QQ_01UITests.m; sourceTree = "<group>"; };
 		35532FF91BBE25EA007FFCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355330051BBE281A007FFCB1 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		3553300F1BBE2AC7007FFCB1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		355330101BBE2AC7007FFCB1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		355330131BBE2AC7007FFCB1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		355330141BBE2AC7007FFCB1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3553301B1BBE2DB9007FFCB1 /* LZMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMessageModel.h; sourceTree = "<group>"; };
+		3553301C1BBE2DB9007FFCB1 /* LZMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMessageModel.m; sourceTree = "<group>"; };
+		3553301E1BBE2F93007FFCB1 /* LZMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMessageCell.h; sourceTree = "<group>"; };
+		3553301F1BBE2F93007FFCB1 /* LZMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMessageCell.m; sourceTree = "<group>"; };
+		355330211BBE3A70007FFCB1 /* LZMessageFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMessageFrameModel.h; sourceTree = "<group>"; };
+		355330221BBE3A70007FFCB1 /* LZMessageFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMessageFrameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,7 @@
 		35532FD11BBE25E9007FFCB1 /* day08-QQ-01 */ = {
 			isa = PBXGroup;
 			children = (
-				35532FD51BBE25EA007FFCB1 /* AppDelegate.h */,
-				35532FD61BBE25EA007FFCB1 /* AppDelegate.m */,
-				35532FD81BBE25EA007FFCB1 /* ViewController.h */,
-				35532FD91BBE25EA007FFCB1 /* ViewController.m */,
-				35532FDB1BBE25EA007FFCB1 /* Main.storyboard */,
-				35532FDE1BBE25EA007FFCB1 /* Assets.xcassets */,
-				35532FE01BBE25EA007FFCB1 /* LaunchScreen.storyboard */,
-				35532FE31BBE25EA007FFCB1 /* Info.plist */,
+				3553300D1BBE2AC7007FFCB1 /* Classes */,
 				35532FD21BBE25E9007FFCB1 /* Supporting Files */,
 			);
 			path = "day08-QQ-01";
@@ -117,6 +122,11 @@
 		35532FD21BBE25E9007FFCB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				35532FDB1BBE25EA007FFCB1 /* Main.storyboard */,
+				35532FDE1BBE25EA007FFCB1 /* Assets.xcassets */,
+				35532FE01BBE25EA007FFCB1 /* LaunchScreen.storyboard */,
+				35532FE31BBE25EA007FFCB1 /* Info.plist */,
+				355330051BBE281A007FFCB1 /* messages.plist */,
 				35532FD31BBE25E9007FFCB1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +148,56 @@
 				35532FF91BBE25EA007FFCB1 /* Info.plist */,
 			);
 			path = "day08-QQ-01UITests";
+			sourceTree = "<group>";
+		};
+		3553300D1BBE2AC7007FFCB1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3553300E1BBE2AC7007FFCB1 /* Controllers */,
+				355330111BBE2AC7007FFCB1 /* Models */,
+				355330121BBE2AC7007FFCB1 /* Others */,
+				355330151BBE2AC7007FFCB1 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3553300E1BBE2AC7007FFCB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3553300F1BBE2AC7007FFCB1 /* ViewController.h */,
+				355330101BBE2AC7007FFCB1 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		355330111BBE2AC7007FFCB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3553301B1BBE2DB9007FFCB1 /* LZMessageModel.h */,
+				3553301C1BBE2DB9007FFCB1 /* LZMessageModel.m */,
+				355330211BBE3A70007FFCB1 /* LZMessageFrameModel.h */,
+				355330221BBE3A70007FFCB1 /* LZMessageFrameModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		355330121BBE2AC7007FFCB1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				353B56D21BBE3C5B0028DD5A /* Constants.h */,
+				355330131BBE2AC7007FFCB1 /* AppDelegate.h */,
+				355330141BBE2AC7007FFCB1 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		355330151BBE2AC7007FFCB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3553301E1BBE2F93007FFCB1 /* LZMessageCell.h */,
+				3553301F1BBE2F93007FFCB1 /* LZMessageCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +267,7 @@
 				TargetAttributes = {
 					35532FCE1BBE25E9007FFCB1 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JELRR5G5BZ;
 					};
 					35532FE71BBE25EA007FFCB1 = {
 						CreatedOnToolsVersion = 7.0;
@@ -243,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355330061BBE281A007FFCB1 /* messages.plist in Resources */,
 				35532FE21BBE25EA007FFCB1 /* LaunchScreen.storyboard in Resources */,
 				35532FDF1BBE25EA007FFCB1 /* Assets.xcassets in Resources */,
 				35532FDD1BBE25EA007FFCB1 /* Main.storyboard in Resources */,
@@ -270,9 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35532FDA1BBE25EA007FFCB1 /* ViewController.m in Sources */,
-				35532FD71BBE25EA007FFCB1 /* AppDelegate.m in Sources */,
+				355330161BBE2AC7007FFCB1 /* ViewController.m in Sources */,
+				355330231BBE3A70007FFCB1 /* LZMessageFrameModel.m in Sources */,
 				35532FD41BBE25EA007FFCB1 /* main.m in Sources */,
+				355330171BBE2AC7007FFCB1 /* AppDelegate.m in Sources */,
+				355330201BBE2F93007FFCB1 /* LZMessageCell.m in Sources */,
+				3553301D1BBE2DB9007FFCB1 /* LZMessageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "day08-QQ-01/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shanzha.day08-QQ-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +490,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "day08-QQ-01/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shanzha.day08-QQ-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +567,7 @@
 				35532FFE1BBE25EA007FFCB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35532FFF1BBE25EA007FFCB1 /* Build configuration list for PBXNativeTarget "day08-QQ-01Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +576,7 @@
 				355330011BBE25EA007FFCB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		355330021BBE25EA007FFCB1 /* Build configuration list for PBXNativeTarget "day08-QQ-01UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +585,7 @@
 				355330041BBE25EA007FFCB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
